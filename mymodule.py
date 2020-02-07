@@ -20,5 +20,6 @@ def postal_lookup(postal_code):
 if __name__ = "__main__":
     degrees = get_weather("OSLO")
     print("Weather in Oslo is %.2f degrees Celcius" % degrees)
+    
     location = postal_lookup("B323PP")
     print(location)
